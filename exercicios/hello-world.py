@@ -1,2 +1,2 @@
 #Digite print('Olá, mundo!')
-print('Olá, Mundo!')
+print('Za Warudo! Toki wo tomare!')
