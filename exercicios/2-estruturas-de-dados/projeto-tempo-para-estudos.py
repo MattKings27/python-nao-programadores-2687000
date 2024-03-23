@@ -7,5 +7,9 @@ total_dias = (input(f'How many days will take your wizard training, Mr. {nome}?'
 total_horas = (input(f'And how many hours, if i may ask?'))
 # 4. Crie uma variável chamada "curso" e, usando o método input(), solicite o título do curso desejado;
 curso = (input('Sir, just for curiosity, which magic school are you studying?')) 
+
+# Adjust type
+total_dias = int(total_dias)
+total_horas = int(total_horas)
 # 5. Imprima na tela uma frase informando o nome da estudante, o total_dias dedicados aos estudos, o total horas semanais e o curso.
-print(f'Oh, i see sir, i know you created me, but is good to talk to someone. And very rich to know Mr. {nome}, that you will take {total_dias} days and {total_horas} hours to finish your {curso} training!, must of luck, i bet you have people counting on you!')
+print(f'Oh, i see sir, i know you created me, but is good to talk to someone. And very rich to know Mr. {nome}, that you will take {total_dias} days and {total_horas} hours to finish your {curso} training!, best of luck, i bet you have people counting on you!')
